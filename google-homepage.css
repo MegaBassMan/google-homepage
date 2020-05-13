@@ -1,0 +1,28 @@
+#fill a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000000;
+    opacity: 0.75;
+}
+
+#fill {
+    position: absolute;
+    margin: 7px 0 0 10px;
+}
+
+#gb {
+    font-size: 13px;
+}
+
+a:visited {
+    color: #609;
+}
+
+a: {
+    color: #1A0DAB;
+    text-decoration: none;
+}
+
+body, a, p, .h {
+    font-family: arial,sans-serif;
+}
