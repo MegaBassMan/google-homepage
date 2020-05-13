@@ -1,28 +1,30 @@
-#fill a {
-    display: inline-block;
-    padding-left: 15px;
-    color: #000000;
-    opacity: 0.75;
+
+a:hover{
+    text-decoration: underline;
 }
 
-#fill {
-    position: absolute;
-    margin: 7px 0 0 10px;
-}
-
-#gb {
-    font-size: 13px;
-}
-
-a:visited {
-    color: #609;
-}
 
 a: {
-    color: #1A0DAB;
+    color: #000;
     text-decoration: none;
 }
 
 body, a, p, .h {
     font-family: arial,sans-serif;
+}
+
+.right {
+    text-align: right;
+    justify-self: end;
+}
+
+.left {
+    text-align: left;
+    justify-self: start;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }
