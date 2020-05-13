@@ -28,3 +28,11 @@ body, a, p, .h {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
+
+ul {
+    list-style: none;
+}
+
+main {
+    display: grid;
+}
