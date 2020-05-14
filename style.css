@@ -3,7 +3,7 @@ a:hover{
 }
 
 
-a: {
+a {
     color: #000;
     text-decoration: none;
 }
@@ -13,8 +13,8 @@ body, a, p, .h {
 }
 
 .right {
-    text-align: right;
     justify-self: end;
+    margin: 0 1em;
 }
 
 .left {
@@ -53,4 +53,10 @@ ul {
     border-radius: 20px;
     height: 30px;
     width: 400px;
+}
+#sign-in {
+  background: #4285F4;
+  border-radius: 2px;
+  color: #FFF;
+  border: 10px;
 }
