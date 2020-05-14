@@ -25,14 +25,22 @@ body, a, p, .h {
 
 #top {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr;
+    gap: 1em;
+    justify-content: center;
 }
 
 ul {
     list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr;
+    gap: 10px;
+    justify-content: center;
 }
 
 main {
     display: grid;
+}
+#logo {
+    align-items: center;
 }
