@@ -17,14 +17,13 @@ body, a, p, .h {
 .right {
     justify-self: end;
     margin: 0 1em;
-    grid-template-columns: 1fr 1fr 0.5fr 1fr;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr;
 }
 
 .left {
-    text-align: left;
+
     justify-self: start;
-    margin: 0 1em;
-    grid-template-columns: 1fr 1fr 0.5fr 1fr;
+    grid-template-columns: 0.5fr 0.5fr 1fr;
 }
 
 #top {
@@ -39,12 +38,7 @@ ul {
     list-style: none;
 }
 
-main {
-    display: grid;
-    vertical-align: baseline;
-    align-items: space between;
-}
- 
+
 ul {
     display: grid;
     gap: 10px;
@@ -54,7 +48,8 @@ ul {
 #center {
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 1px;
+    padding-bottom: 0px;
+    margin: 0px;
 }
 .search {
     border-radius: 20px;
@@ -82,21 +77,22 @@ button:hover {
 
 #bottom-bar {
   background: #f2f2f2;
-  display: grid;
   grid-template-columns: 1fr 0.5fr 1fr;
   align-content: center;
-  padding: 1em;
+  height: 100px;
 }
 
 footer {
   display: grid;
-  grid-template-columns: 1fr 0.5fr 1fr;
   font-size: 10px;
   align-content: center;
-  padding-bottom: 0px;
-  margin: 0px;
 }
 
 div {
   display: block;
+}
+
+main{
+  display: grid;
+  grid-template-rows: 5vh 60vh 25vh 5vh 5vh;
 }
