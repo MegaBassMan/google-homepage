@@ -1,11 +1,4 @@
-footer {
-  display: grid;
-  grid-template-columns: 1fr 0.5fr 1fr;
-  font-size: 10px;
-  padding: 1em;
-  align-content: center;
-  
-}
+
 a:hover{
     text-decoration: underline;
 }
@@ -49,7 +42,7 @@ ul {
 main {
     display: grid;
     vertical-align: baseline;
-    padding-top: 0;
+    align-items: space between;
 }
  
 ul {
@@ -60,9 +53,8 @@ ul {
 
 #center {
     text-align: center;
-    padding-top: 140px;
-    padding-bottom: 15px;
-    
+    padding-top: 50px;
+    padding-bottom: 1px;
 }
 .search {
     border-radius: 20px;
@@ -94,4 +86,17 @@ button:hover {
   grid-template-columns: 1fr 0.5fr 1fr;
   align-content: center;
   padding: 1em;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  font-size: 10px;
+  align-content: center;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+div {
+  display: block;
 }
