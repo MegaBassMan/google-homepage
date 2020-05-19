@@ -53,9 +53,7 @@ ul {
 
 #center {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 0px;
-    margin: 0px;
+    margin: 20px;
 }
 .search {
     border-radius: 20px;
