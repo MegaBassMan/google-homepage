@@ -52,7 +52,8 @@ ul {
 }
 
 #center {
-   text-align: center;
+   align-self: center;
+   justify-self: center;
 }
 
 .search {
@@ -87,6 +88,7 @@ button:hover {
    margin-left: -30px;
    margin-right: -30px;
    bottom: 0px;
+   
 }
 
 footer {
@@ -95,6 +97,8 @@ footer {
    font-size: 14px;
    align-content: center;
    bottom: 0px;
+   right: 20px;
+   left: 20px;
    
 }
 
