@@ -1,4 +1,10 @@
 
+main {
+  display: grid;
+  grid-template-rows: 5vh 60vh 25vh 5vh 5vh;
+}
+
+
 a:hover{
     text-decoration: underline;
 }
@@ -16,7 +22,6 @@ body, a, p, .h {
 
 .right {
     justify-self: end;
-    margin: 0 1em;
     grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr;
 }
 
@@ -30,6 +35,7 @@ body, a, p, .h {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    
     
 
 }
@@ -79,7 +85,9 @@ button:hover {
   background: #f2f2f2;
   grid-template-columns: 1fr 0.5fr 1fr;
   align-content: center;
-  height: 100px;
+  display: grid;
+  padding: 0.5em;
+  margin: -20px;
 }
 
 footer {
@@ -90,9 +98,4 @@ footer {
 
 div {
   display: block;
-}
-
-main{
-  display: grid;
-  grid-template-rows: 5vh 60vh 25vh 5vh 5vh;
 }
