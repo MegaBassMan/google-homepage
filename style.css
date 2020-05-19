@@ -86,6 +86,7 @@ button:hover {
    line-height: 30px;
    margin-left: -30px;
    margin-right: -30px;
+   bottom: 0px;
 }
 
 footer {
@@ -93,7 +94,7 @@ footer {
    display: grid;
    font-size: 14px;
    align-content: center;
-   bottom: 0;
+   bottom: 0px;
    
 }
 
