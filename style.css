@@ -1,100 +1,101 @@
 main {
-  display: grid;
-  grid-template-rows: 5vh 60vh 25vh 5vh 5vh;
+ display: grid;
+ grid-template-rows: 5vh 60vh 25vh 5vh 5vh;
 }
 
 
 a:hover{
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
 
 a {
-    color: #000;
-    text-decoration: none;
-    font-size: 14px;
+   color: #000;
+   text-decoration: none;
+   font-size: 14px;
 }
 
 body, a, p, .h {
-    font-family: arial,sans-serif;
+   font-family: arial,sans-serif;
 }
 
 .right {
-    justify-self: end;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   justify-self: end;
+   grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr;
 }
 
 .left {
-
-    justify-self: start;
-    grid-template-columns: 0.5fr 0.5fr 1fr;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   justify-self: start;
+   grid-template-columns: 0.5fr 0.5fr 1fr;
 }
 
 #top {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
     
     
 
 }
 
 ul {
-    list-style: none;
+   list-style: none;
 }
 
 
 ul {
-    display: grid;
-    gap: 10px;
-    justify-content: center;
+   display: grid;
+   gap: 10px;
+   justify-content: center;
 }
 
 #center {
-    text-align: center;
-    margin: 20px;
+   text-align: center;
+   margin-top: 20px;
 }
 
 .search {
-    border-radius: 20px;
-    height: 30px;
-    width: 400px;
+   border-radius: 20px;
+   height: 30px;
+   width: 400px;
 }
 #sign-in {
-  background: #4285F4;
-  border-radius: 4px;
-  color: #FFF;
-  font-size: 14px;
-  font-weight: bold;
-  border: 1px solid #4284F4;
-  padding: 10px;
+   background: #4285F4;
+   border-radius: 4px;
+   color: #FFF;
+   font-size: 14px;
+   font-weight: bold;
+   border: 1px solid #4284F4;
+   padding: 10px;
 }
 button {
-  border: 1px solid transparent;
-  background: #f2f2f2;
-  margin: 2em .5em;
-  padding: 1em 1em;
+   border: 1px solid transparent;
+   background: #f2f2f2;
+   margin: 2em .5em;
+   padding: 1em 1em;
 }
 button:hover {
-  border: 1px solid #4d90fe;
+   border: 1px solid #4d90fe;
 }
 
 #bottom-bar {
-  background: #f2f2f2;
-  grid-template-columns: 1fr 0.5fr 1fr;
-  align-content: center;
-  display: grid;
-  padding: 0.5em;
-  padding-top: 0px;
-  margin: -30px;
+   background: #f2f2f2;
+   grid-template-columns: 1fr 3fr 1fr;
+   display: grid;
+   margin: -8px;
+   height: 300%;
 }
 
 footer {
-  display: grid;
-  font-size: 10px;
-  align-content: center;
+   display: grid;
+   font-size: 10px;
+   align-content: center;
 }
 
 div {
-  display: block;
+   display: block;
 }
